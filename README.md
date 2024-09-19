@@ -33,7 +33,8 @@ Esta tabla registra las cuotas que pagan los socios. Los campos son:
 
 Las tablas están relacionadas mediante el campo `id_socio`, lo que crea una relación de 1 a N entre socios y cuotas.
 
-![Diagrama de la relación](./assets/diagrama.jpg)
+![Diagrama de la relación](./diagrama.jpg)
+
 
 ## Instrucciones para la Ejecución
 
