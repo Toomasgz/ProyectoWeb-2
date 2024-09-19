@@ -4,10 +4,11 @@ Este proyecto forma parte del curso Web 2 y tiene como objetivo gestionar los da
 
 ## Estructura de la Base de Datos
 
-La base de datos del club, llamada #club_embajadores, está compuesta por dos tablas principales:
+La base de datos del club, llamada `club_embajadores`, está compuesta por dos tablas principales:
 
-1. **socios**: Almacena la información de los miembros del club.
-2. **cuotas**: Registra los pagos de las cuotas correspondientes a cada socio, clasificadas por deporte y categoría.
+1. **SOCIOS**: Almacena la información de los miembros del club.
+2. **CUOTAS**: Registra los pagos de las cuotas correspondientes a cada socio, clasificadas por deporte y categoría.
+
 
 ## Relación entre Tablas
 
