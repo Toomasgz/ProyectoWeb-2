@@ -27,14 +27,13 @@ Esta tabla registra las cuotas que pagan los socios. Los campos son:
 - `deporte`: Deporte para el que el socio paga la cuota.
 - `precio`: Monto de la cuota en pesos argentinos.
 - `categoria`: Categoría del socio en relación con su deporte.
-- `id_socio`: Clave foránea relacionada con `socios`.
+- `id_socio`: Clave foránea relacionada con la tabla `socios`.
 
 ## Relación entre Tablas
 
-Las tablas están relacionadas mediante el campo `id_socio`, lo que crea una relación de 1 a N entre socios y cuotas.
+Las tablas están relacionadas mediante el campo `id_socio`, lo que crea una relación de 1 a N entre socios y cuotas. A continuación, se muestra el diagrama que ilustra esta relación:
 
 ![Diagrama de la relación](./diagrama.jpg)
-
 
 ## Instrucciones para la Ejecución
 
@@ -43,6 +42,6 @@ Las tablas están relacionadas mediante el campo `id_socio`, lo que crea una rel
 
 ## Scripts de SQL
 
-- **Creación de tablas**: `socios` y `cuotas` con claves primarias.
-- **Relaciones**: Clave foránea conecta `id_socio` en `cuotas` con `id_socio` en `socios`.
-- **Insert de datos**: Ejemplo de datos en ambas tablas.
+- **Creación de tablas**: Se definen las tablas `socios` y `cuotas`, con claves primarias y foráneas.
+- **Relaciones**: La clave foránea conecta `id_socio` en `cuotas` con `id_socio` en `socios`, permitiendo una relación de 1 socio a múltiples cuotas.
+- **Inserción de datos**: Se incluye un
